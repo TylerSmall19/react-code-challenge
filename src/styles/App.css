@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+
+.login-form {
+  min-width: 200px;
+  min-height: 40vh;
+  max-height: 80vh;
+  background: #3d434e;
+  margin-top: 5vh;
+}
+
+.login-form .form-input {
+  width: 80%;
+  height: 1.8rem;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  padding-left: 2%;
+}
+
+.login-form label {
+  font-size: .65em;
+  text-align: left;
+  float: left;
+  margin-left: 10%;
+  margin-bottom: 1.5%;
+}
+
+.login-form label {
+  margin-top: 3%;
+}
+
+.login-form label:first {
+  margin-top: 0px;
+}
+
+.login-form input {
+  vertical-align: left;
+}
+
+.login-form input[type="submit"] {
+  display: block;
+  width: 17%;
+  min-width: 90px;
+  margin-left: 9%;
+  margin-top: 7%;
+}
+
+.login-form input[type="submit"]:hover {
+  background: #FFB000;
+  cursor: pointer;
+}
